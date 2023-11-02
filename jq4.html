@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>hai program</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<button id='togglebutton'>click</button>
+<p id='togglepara'>hai mekha</p>
+<button id='toggleshow'>show</button>
+<button id='togglehide'>hide</button>
+<script>
+$(document).ready(function(){
+$("#togglebutton").click (function (){
+$("#togglepara").text("new content");
+});
+$("#toggleshow").click(function(){
+$("#togglepara").show();
+});
+$("#togglehide").click(function(){
+$("#togglepara").hide();
+});
+});
+</script>
+</body>
+</html>

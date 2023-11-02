@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> jquery </title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+<h1>jq program</h1>
+<button id='togglebutton'>click</button>
+<p id='togglepara'>hai mekha</p>
+<script>
+$(document).ready(function(){
+$("#togglebutton").click(function(){
+$("#togglepara").text("new content");
+});
+});
+</script>
+</body>
+</html>
